@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/linjw16/E/Program_Files/prj/l3fwd_tst'
+cd fpga && make
+make: Leaving directory '/home/linjw16/E/Program_Files/prj/l3fwd_tst'
+ 
+/bin/sh: 1: cd: can't cd to fpga
+make: *** [Makefile:14: fpga] Error 2
+

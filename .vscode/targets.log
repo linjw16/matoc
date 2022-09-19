@@ -1,0 +1,335 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+cd fpga && make
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Sep 19 09:21:28 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/linjw16/.Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/linjw16/E/Program_Files/prj/l3fwd_tst
+# makefile
+SHELL = /bin/sh
+# environment
+GDM_LANG = zh_CN
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"52a557de5c39607b04949a9e2e3aeee5.zh-cn","_translationsConfigFile":"/home/linjw16/.config/Code/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/tcf.json","_cacheRoot":"/home/linjw16/.config/Code/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn","_resolvedLanguagePackCoreLocation":"/home/linjw16/.config/Code/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"/home/linjw16/.config/Code/clp/52a557de5c39607b04949a9e2e3aeee5.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:310759
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=e350c428a45f0afa05533d4c63183a7e
+# environment
+_ = /usr/share/code/code
+# environment
+MANAGERPID = 1279
+# makefile (from 'Makefile', line 6)
+SUBDIRS_CLEAN = $(patsubst %,%.clean,$(SUBDIRS))
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/linjw16
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/linjw16/.local/bin:/home/linjw16/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/linjw16/文档/OpenROAD/build/src/:/home/linjw16/文档/OpenROAD/build/src/
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/dell:@/tmp/.ICE-unix/17345,unix/dell:/tmp/.ICE-unix/17345
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 0bcee0dfb0b744ea8ba3f9a7eef5dd57
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/linjw16
+# environment
+LS_COLORS = 
+# environment
+PARENT_WINDOW_ID = x11:220002b
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 220161
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+PWD = /home/linjw16/E/Program_Files/prj/l3fwd_tst
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 17282
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/linjw16
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/linjw16/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
+# environment
+LOGNAME = linjw16
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = linjw16
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b7ca5a55-1.71.0-main.sock
+# makefile (from 'Makefile', line 2)
+TARGETS := 
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 5)
+SUBDIRS = fpga
+# environment
+LANG = C
+# environment
+VSCODE_PID = 220161
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=e350c428a45f0afa05533d4c63183a7e
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=8/140=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2065, inode 155564): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+program:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	#djtgcfg prog -d Atlys --index 0 --file fpga/fpga.bit
+
+all: fpga
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+.PHONY: all fpga fpga.clean clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 15:17:38.7372932
+#  File has been updated.
+#  Successfully updated.
+
+fpga.clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	cd $(@:.clean=) && $(MAKE) clean
+
+fpga:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := fpga
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+ 
+/bin/sh: 1: cd: can't cd to fpga
+make: *** [Makefile:14: fpga] Error 2
+
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from 'Makefile', line 14):
+	cd $@ && $(MAKE)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: fpga.clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	-rm -rf $(TARGETS)
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 32 / storage = 248 B / avg = 7 B
+# current buf: size = 8162 B / used = 248 B / count = 32 / avg = 7 B
+
+# strcache performance: lookups = 56 / hit rate = 42%
+# hash-table stats:
+# Load=32/8192=0%, Rehash=0, Collisions=1/56=2%
+# Finished Make data base on Mon Sep 19 09:21:28 2022
+
+ 
