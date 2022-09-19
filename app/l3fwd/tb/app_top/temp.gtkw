@@ -1,0 +1,218 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Sep 19 12:16:12 2022
+[*]
+[dumpfile] "/home/linjw16/E/Program_Files/prj/matoc/app/l3fwd/tb/app_top/dut_wrap_8.fst"
+[dumpfile_mtime] "Mon Sep 19 09:56:21 2022"
+[dumpfile_size] 1294610
+[savefile] "/home/linjw16/E/Program_Files/prj/matoc/app/l3fwd/tb/app_top/temp.gtkw"
+[timestart] 12290000
+[size] 3664 2018
+[pos] -1 -1
+*-21.000000 21910001 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dut_wrap_8.
+[treeopen] dut_wrap_8.app_top_1.
+[treeopen] dut_wrap_8.app_top_1.app_core_1.app_mat_1.
+[treeopen] dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.
+[sst_width] 597
+[signals_width] 1191
+[sst_expanded] 1
+[sst_vpaned_height] 599
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.app_top_1.s_axis_rx_tlast[7:0]
+dut_wrap_8.app_top_1.s_axis_rx_tready[7:0]
+dut_wrap_8.app_top_1.s_axis_rx_tvalid[7:0]
+dut_wrap_8.clk
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.s_axis_tx_tdest_pad[63:0]
+@28
+dut_wrap_8.app_top_1.s_axis_tx_tlast[7:0]
+dut_wrap_8.app_top_1.s_axis_tx_tready[7:0]
+dut_wrap_8.app_top_1.s_axis_tx_tvalid[7:0]
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.app_top_1.m_axis_rx_tlast[7:0]
+dut_wrap_8.app_top_1.m_axis_rx_tready[7:0]
+dut_wrap_8.app_top_1.m_axis_rx_tvalid[7:0]
+dut_wrap_8.clk
+dut_wrap_8.app_top_1.m_axis_tx_tlast[7:0]
+dut_wrap_8.app_top_1.m_axis_tx_tready[7:0]
+dut_wrap_8.app_top_1.m_axis_tx_tvalid[7:0]
+dut_wrap_8.clk
+dut_wrap_8.clk
+@22
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.s_axis_tdest[127:0]
+@29
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.s_axis_tlast[15:0]
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.s_axis_tready[15:0]
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.s_axis_tvalid[15:0]
+@28
+dut_wrap_8.clk
+@29
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.m_axis_tlast[15:0]
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.m_axis_tready[15:0]
+[color] 1
+dut_wrap_8.app_top_1.axis_switch_inst.m_axis_tvalid[15:0]
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.ptr_reg[1:0]
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.transfer_reg
+@22
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tdest[3:0]
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tid[3:0]
+@28
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tlast
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tready
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tvalid
+@22
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tkeep[63:0]
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_tdata[511:0]
+dut_wrap_8.app_top_1.adp_i[1].des_ipv4[31:0]
+@28
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tuser[3:0]
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tdest[3:0]
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tid[3:0]
+@28
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tlast
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tready
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tvalid
+@22
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tkeep[63:0]
+dut_wrap_8.app_top_1.adp_i[1].axis_parser_inst.m_axis_hdr_tdata[511:0]
+dut_wrap_8.clk
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.ptr_reg[1:0]
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.transfer_reg
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tdest[3:0]
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tid[3:0]
+@28
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tlast
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tready
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tvalid
+@22
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tkeep[63:0]
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_tdata[511:0]
+dut_wrap_8.app_top_1.adp_i[2].des_ipv4[31:0]
+@28
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tuser[3:0]
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tdest[3:0]
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tid[3:0]
+@28
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tlast
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tready
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tvalid
+@22
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tkeep[63:0]
+dut_wrap_8.app_top_1.adp_i[2].axis_parser_inst.m_axis_hdr_tdata[511:0]
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tuser[39:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tdest[11:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tlast
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tready
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tvalid
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tkeep[63:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.s_axis_tdata[511:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.search_key[34:0]
+@28
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tuser[167:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tdest[11:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tlast
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tready
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tvalid
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tkeep[63:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.m_axis_tdata[511:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.match_pipe_inst.dbg_ipv4_reg[34:0]
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tuser[167:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tdest[11:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tlast
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tready
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tvalid
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tkeep[63:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.s_axis_tdata[511:0]
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tuser[167:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tdest[11:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tkeep_pad[67:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tlast
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tready
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tvalid
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tkeep[63:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.s_axis_tdata[511:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.vlan_data[15:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.vlan_op[1:0]
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.pkt_type[3:0]
+@28
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tuser[167:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tdest[11:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tlast
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tready
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tvalid
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tkeep[67:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.vlan_op_inst.m_axis_tdata[543:0]
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tuser[3:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tdest[11:0]
+@28
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tlast
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tready
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tvalid
+@22
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tkeep[67:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.m_axis_tdata[543:0]
+dut_wrap_8.app_top_1.app_core_1.app_mat_1.action_pipe_inst.dbg_opcode[7:0]
+@28
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+dut_wrap_8.clk
+[pattern_trace] 1
+[pattern_trace] 0

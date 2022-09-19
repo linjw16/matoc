@@ -1,0 +1,127 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Jun  8 15:52:38 2022
+[*]
+[dumpfile] "/home/linjw16/E/Program_Files/prj/l3fwd_pt/app/l3fwd/tb/action_pipe/action_pipe.fst"
+[dumpfile_mtime] "Wed Jun  8 15:52:10 2022"
+[dumpfile_size] 20010
+[savefile] "/home/linjw16/E/Program_Files/prj/l3fwd_pt/app/l3fwd/tb/action_pipe/temp.gtkw"
+[timestart] 0
+[size] 3664 2018
+[pos] -1 -1
+*-17.000000 49230 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] action_pipe.
+[treeopen] action_pipe.hdr_csum_inst.
+[treeopen] action_pipe.set_mac.
+[treeopen] action_pipe.vlan_op_inst.
+[sst_width] 466
+[signals_width] 1188
+[sst_expanded] 1
+[sst_vpaned_height] 559
+@22
+action_pipe.s_axis_tuser[131:0]
+@28
+action_pipe.s_axis_tvalid
+action_pipe.s_axis_tready
+action_pipe.clk
+@29
+action_pipe.dbg_ttl_ipv4_dec
+@28
+action_pipe.dbg_ttl_ipv4_in
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+@22
+action_pipe.dmac_rvs[47:0]
+action_pipe.smac_rvs[47:0]
+action_pipe.set_mac.set_data[95:0]
+@28
+action_pipe.clk
+action_pipe.set_mac.m_axis_tvalid
+action_pipe.clk
+action_pipe.clk
+@22
+action_pipe.hdr_csum_inst.ipv4_hdr_reg[159:0]
+action_pipe.hdr_csum_inst.in_axis_tdata_reg[511:0]
+@28
+action_pipe.hdr_csum_inst.in_axis_tvalid_reg
+>49231
+action_pipe.hdr_csum_inst.in_axis_tready
+>0
+action_pipe.clk
+action_pipe.csum_enable
+action_pipe.clk
+@22
+action_pipe.hdr_csum_inst.a_0[15:0]
+action_pipe.hdr_csum_inst.a_1[15:0]
+action_pipe.hdr_csum_inst.a_2[15:0]
+action_pipe.hdr_csum_inst.a_3[15:0]
+action_pipe.hdr_csum_inst.a_4[15:0]
+action_pipe.hdr_csum_inst.a_5[15:0]
+action_pipe.hdr_csum_inst.a_6[15:0]
+action_pipe.hdr_csum_inst.a_7[15:0]
+action_pipe.hdr_csum_inst.a_8[15:0]
+action_pipe.hdr_csum_inst.a_9[15:0]
+action_pipe.hdr_csum_inst.sum[19:0]
+action_pipe.hdr_csum_inst.sum_cin_1[16:0]
+action_pipe.hdr_csum_inst.sum_cin_2[15:0]
+action_pipe.hdr_csum_inst.csum[15:0]
+@28
+action_pipe.clk
+@22
+action_pipe.hdr_csum_inst.m_axis_tdata[511:0]
+@28
+action_pipe.hdr_csum_inst.m_axis_tvalid
+action_pipe.hdr_csum_inst.m_axis_tready
+action_pipe.clk
+@22
+action_pipe.hdr_csum_inst.m_axis_tuser[131:0]
+action_pipe.hdr_csum_inst.m_axis_tuser[131:0]
+@28
+action_pipe.hdr_csum_inst.m_axis_tvalid
+action_pipe.hdr_csum_inst.m_axis_tready
+action_pipe.clk
+@22
+action_pipe.vlan_data[15:0]
+@28
+action_pipe.vlan_op[1:0]
+action_pipe.clk
+action_pipe.vlan_op_inst.s_axis_tready
+@22
+action_pipe.vlan_op_inst.s_axis_tuser[131:0]
+@28
+action_pipe.vlan_op_inst.s_axis_tvalid
+action_pipe.clk
+action_pipe.vlan_op_inst.m_axis_tready
+@22
+action_pipe.vlan_op_inst.m_axis_tuser[131:0]
+@28
+action_pipe.vlan_op_inst.m_axis_tvalid
+action_pipe.clk
+action_pipe.clk
+action_pipe.op_tid
+@22
+action_pipe.m_axis_ini_tid[7:0]
+action_pipe.m_axis_tid_int[7:0]
+@28
+action_pipe.op_tdest
+@22
+>49231
+action_pipe.set_tdest[7:0]
+>0
+action_pipe.m_axis_ini_tdest[7:0]
+action_pipe.m_axis_tdest_int[7:0]
+@28
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+action_pipe.clk
+[pattern_trace] 1
+[pattern_trace] 0
